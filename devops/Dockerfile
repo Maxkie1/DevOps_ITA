@@ -2,7 +2,7 @@ FROM python:3.8-slim
 
 LABEL maintainer = "Max Kiefer, Gregor Boschmann"
 
-EXPOSE 5002
+EXPOSE 5000
 
 ENV PYTHONDONTWRITEBYTECODE=1
 
