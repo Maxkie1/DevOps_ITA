@@ -20,7 +20,7 @@ variable "app_name" {
 
 variable "app_image" {
     description = "The name of the app image"
-    default = "maxkie/devops-devops"
+    default = "maxkie/devops_ita"
 }
 
 variable "app_image_tag" {
