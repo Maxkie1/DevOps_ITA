@@ -1,14 +1,22 @@
 # DevOps_ITA
 ## Docker
 ### Starting Docker
-```docker-compose up```
+```
+docker-compose up
+```
 ### Stopping Docker
-```docker-compose down```
+```
+docker-compose down
+```
 ## Vagrant
 ### Starting Vagrant
-```vagrant up```
+```
+vagrant up
+```
 ### Stopping Vagrant
-```vagrant halt```
+```
+vagrant halt
+```
 ## Terraform
 ### Starting Terraform
 ```
@@ -17,4 +25,6 @@ terraform validate
 terraform apply
 ```
 ### Stopping Terraform
-```terraform destroy```
+```
+terraform destroy
+```
