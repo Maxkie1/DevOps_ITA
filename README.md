@@ -11,8 +11,10 @@
 ```vagrant halt```
 ## Terraform
 ### Starting Terraform
-<code>terraform init<br>
-terraform validate<br>
-terraform apply</code>
+```
+terraform init
+terraform validate
+terraform apply
+```
 ### Stopping Terraform
 ```terraform destroy```
