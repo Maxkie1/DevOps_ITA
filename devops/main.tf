@@ -49,5 +49,4 @@ resource "azurerm_linux_web_app" "app" {
     app_settings = {
         "WEBSITES_PORT" = var.app_port
     }
-
 }
