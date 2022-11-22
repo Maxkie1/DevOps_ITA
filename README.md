@@ -9,3 +9,10 @@
 ```vagrant up```
 ### Stopping Vagrant
 ```vagrant halt```
+## Terraform
+### Starting Terraform
+<code>terraform init<br>
+terraform validate<br>
+terraform apply</code>
+### Stopping Terraform
+```terraform destroy```
