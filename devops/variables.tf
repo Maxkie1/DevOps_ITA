@@ -30,5 +30,5 @@ variable "app_image_tag" {
 
 variable "app_port" {
     description = "The port of the app"
-    default = "5000"
+    default = "5002"
 }
