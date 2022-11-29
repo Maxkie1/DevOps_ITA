@@ -20,12 +20,12 @@ variable "app_name" {
 
 variable "app_image" {
     description = "The name of the app image"
-    default = "maxkie/devops_ita"
+    default = "gregorbo/webappdevops"
 }
 
 variable "app_image_tag" {
     description = "The tag of the app image"
-    default = "latest"
+    default = "1.0"
 }
 
 variable "app_port" {

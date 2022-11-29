@@ -29,8 +29,8 @@ resource "azurerm_service_plan" "appserviceplan" {
     name = "${var.app_service_plan_name}-${random_integer.ri.result}"
     location = azurerm_resource_group.rg.location
     resource_group_name = azurerm_resource_group.rg.name
-    sku_name =  "F1"
-    os_type = "Linux"
+    sku_name  =  "F1"
+    os_type   = "Linux"
 }
 
 # Create the app service
