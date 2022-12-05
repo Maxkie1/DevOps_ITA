@@ -25,7 +25,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: .Dockerfile
+          context: .
+          file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/gregorbo/webappdevops:latest,${{ secrets.DOCKER_HUB_USERNAME }}/gregorbo/webappdevops:${{ github.sha }}
   deploy:
