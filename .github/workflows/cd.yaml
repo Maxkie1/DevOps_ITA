@@ -42,7 +42,7 @@ jobs:
         with:
           app-name: 'myApp-8688'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          images: ${{ secrets.DOCKER_HUB_USERNAME }}/webappdevops:${{ github.sha }}'
+          images: ${{ secrets.DOCKER_HUB_USERNAME }}/webappdevops:${{ github.sha }}
 
         
 
