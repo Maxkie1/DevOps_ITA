@@ -28,7 +28,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/gregorbo/webappdevops:latest,${{ secrets.DOCKER_HUB_USERNAME }}/gregorbo/webappdevops:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/webappdevops:latest,${{ secrets.DOCKER_HUB_USERNAME }}/webappdevops:${{ github.sha }}
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -43,7 +43,7 @@ jobs:
           app-name: 'myApp-8688'
           slot-name: 'production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE}}
-          images: ${{ secrets.DOCKER_HUB_USERNAME }}/gregorbo/webappdevops:${{ github.sha }}'
+          images: ${{ secrets.DOCKER_HUB_USERNAME }}/webappdevops:${{ github.sha }}'
 
         
 
