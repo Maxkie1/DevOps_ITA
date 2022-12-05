@@ -25,7 +25,7 @@ variable "app_image" {
 
 variable "app_image_tag" {
     description = "The tag of the app image"
-    default = "1.0"
+    default = "2.0"
 }
 
 variable "app_port" {
