@@ -12,3 +12,6 @@ __pycache__/
 *.tfvars
 *.tfvars.*
 .terraform.lock.hcl
+
+# macOS
+.DS_Store
